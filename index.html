@@ -1,0 +1,195 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<title>Некоторые аспекты разработки ПО</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=792, user-scalable=no">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<!--link rel="stylesheet" href="shower/themes/ribbon/styles/screen.css"-->
+    <link rel="stylesheet" href="node_modules/shower-ribbon/styles/styles.css">
+    <style>
+        .shower {
+            --slide-ratio: calc(16 / 10);
+        }
+        .h.next:not(.active) {
+            display: none;
+        }
+
+        .slide h3 {
+            font-size: 110%;
+        }
+    </style>
+</head>
+<body class="shower full">
+	<header class="caption">
+		<h1>Некоторые аспекты разработки ПО</h1>
+		<p>или как помочь программе выжить</p>
+	</header>
+    <section class="slide"><div>
+        <h2>Некоторые аспекты разработки ПО</h2>
+        <p>или как помочь программе выжить</p>
+    </div></section>
+    <section class="slide"><div>
+        <h2>Андрей Рублев</h2>
+        <ol>
+            <li>Navitel</li>
+            <li>2gis.ru</li>
+            <li>FoxCommerce</li>
+            <li>Tinkoff Bank</li>
+        </ol>
+    </div></section>
+    <section class="slide"><div>
+        <h2>Требования</h2>
+    </div></section>
+    <section class="slide"><div>
+        <h2>Требования<span class="h next"> ⇨ контекст</span> ⇨ код</h2>
+    </div></section>
+    <section class="slide"><div>
+        <h2>Контекст</h2>
+        <div>
+            <img src="./pictures/bg.jpg" />
+        </div>
+    </div></section>
+    <section class="slide"><div>
+        <h2>Контекст</h2>
+        <ol>
+            <li><span style="font-size: 1.2em">💡💡💡!</span></li>
+            <li class="next">Будет вот так</li>
+            <li class="next">Взаимодействие с другим контекстом</li>
+            <li class="next">...</li>
+            <li class="next"><strike>Код</strike></li>
+        </ol>
+    </div></section>
+    <section class="slide"><div>
+        <h2>I. Вводим контекст</h2>
+        <h2>II. Правим контекст</h2>
+    </div></section>
+    <section class="slide"><div>
+        <h2>I. Вводим контекст</h2>
+        <h3 class="next">Качество решения</h3>
+        <ol>
+            <li class="next">Соответствие требованиям <span class="next">&mdash; для троечников</span></li>
+            <li class="next">Запас прочности для требований</li>
+            <li class="next">Переиспользуемость кода</li>
+        </ol>
+    </div></section>
+    <section class="slide"><div>
+        <h2>I. Вводим контекст</h2>
+    </div></section>
+    <section class="slide" id="entContext2"><div>
+        <h2>I. Вводим контекст</h2>
+        <h3>Качество решения</h3>
+        <ol>
+            <li class="next">Метрика эффективности <span class="next">&mdash; Дж/ч на фичу</span></li>
+            <li class="next">Код должен читаться <span class="next">и быть однородным на своем уровне</span></li>
+            <li class="next">Что важнее пониматься контекст</li>
+        </ol>
+        <style>
+            #entContext2 ol {
+                margin: 0 0 1em;
+            }
+        </style>
+    </div></section>
+    <section class="slide"><div>
+        <h2>I. Вводим контекст</h2>
+        <div>Картинка про командную разработку</div>
+        <div class="next">
+            <img src="./pictures/love.jpg" style="height: 400px" />
+        </div>
+    </div></section>
+    <section class="slide">
+        <h2>I. Вводим контекст</h2>
+        <ol>
+            <li class="next">Сложности на местах быть не должно</li>
+            <li class="next"><a href="https://www.infoq.com/presentations/Simple-Made-Easy">Simple Made Easy</a></li>
+            <li class="next">Абстракции</li>
+            <li class="next"><a href="https://www.youtube.com/watch?v=R-FfI4i0-uY&feature=youtu.be">Снесите это немедленно</a></li>
+        </ol>
+    </section>
+    <section class="slide"><div>
+        <h2>II. Правим контекст</h2>
+    </div></section>
+    <section class="slide"><div>
+        <h2>II. Правим контекст</h2>
+        <div>
+            <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">nobody knows how this code works or why we need it. We just work around it <a href="https://t.co/hXW0SDAqr8">pic.twitter.com/hXW0SDAqr8</a></p>&mdash; Nikita (@nikitonsky) <a href="https://twitter.com/nikitonsky/status/989442137946279936?ref_src=twsrc%5Etfw">April 26, 2018</a></blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div></section>
+    <section class="slide"><div>
+        <h2>II. Правим контекст</h2>
+        <ol>
+            <li class="next">Быть соавтором</li>
+            <li class="next">Программа это больше чем код</li>
+        </ol>
+    </div></section>
+	<section class="slide"><div>
+        <h2>II. Правим контекст</h2>
+        <p class="note next">
+            Как можно поломать контекст
+            <div class="next">Хуяк-хуяк &mdash; вроде работает</div>
+            <div class="next">Не то целеполагание</div>
+        </p>
+	</div></section>
+    <section class="slide"><div>
+        <h2>II. Правим контекст</h2>
+        <h3>Профилактические методы</h3>
+        <ol>
+            <li>Ревью автором контекста твоих изменений в этот контекст</li>
+            <li class="next">Типы <span class="next">, а не jsdoc</span></li>
+            <li class="next">Тесты</li>
+        </ol>
+    </div></section>
+    <section class="slide"><div>
+        <h2>III. Роль тестов</h2>
+        <ol>
+            <li class="next">Откуда баги</li>
+            <li class="next">Что защищать</li>
+            <li class="next">Следим за контекстами</li>
+        </ol>
+    </div></section>
+    <section class="slide">
+        <h2>IV. Бережжом энергию</h2>
+        <h3>Цитаты великих людей (ц)</h3>
+        <li class="next">Держать систему простой – сложно, и наоборот</li>
+        <li class="next">Нормально делай – нормально будет</li>
+        <li class="next">Семь раз отмерь – один раз отрежь</li>
+        <li class="next">Русский мужик долго запрягает, да быстро скачет</li>
+        <li class="next">Тяжело в учении, легко в бою</li>
+    </section>
+    <section class="slide">
+        <h2>IV. Бережжом энергию</h2>
+        <h3>Цели</h3>
+        <li class="next">Инвестируем энергию рано</li>
+        <li class="next">...</li>
+        <li class="next">Profit!</li>
+    </section>
+    <section class="slide">
+        <h2>IV. Бережжом энергию</h2>
+        <ol>
+            <li class="next">Абстракции/инкапсуляция</li>
+            <li class="next">Документация <span class="next">(хорошая)</span></li>
+            <li class="next">Well-known решения</li>
+            <li class="next">DSL</li>
+            <li class="next">...</li>
+        </ol>
+    </section>
+    <section class="slide">
+        <h2>IV. Бережжом энергию</h2>
+        <div>
+            <img src="./pictures/make-vs-scripts.jpg" />
+        </div>
+    </section>
+    <section class="slide">
+        <h2>Спасибо.</h2>
+    </section>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	</div></div>
+	<!-- <script src="shower/shower.min.js"></script> -->
+    <script src="node_modules/shower-core/shower.min.js"></script>
+	<!-- Copyright © 2014 Yours Truly, Famous Inc. -->
+</body>
+</html>
